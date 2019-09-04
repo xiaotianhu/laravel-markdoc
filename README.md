@@ -1,3 +1,28 @@
 # laravel-markdoc
 An markdown based document viewer for laravel , out-of-the-box
 
+# Installation
+
+>This package requires PHP 7+ and Laravel 5.5+
+
+```
+composer require xiaotianhu/markdoc
+```
+
+After that, publish the config files with:
+
+```
+php artisan markdoc:install
+```
+And we're done.
+
+# Usage
+After the install,you'll find a doc folder in your project's base path.
+Just put all the markdown files into the folder,and access with:
+
+>http://yoursite.com/markdoc/index
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+
