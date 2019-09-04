@@ -1,0 +1,22 @@
+{
+    "name": "xiaotianhu/markdoc",
+    "authors": [
+        {
+            "name": "rainyluo",
+            "email": "xiaotianhu@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Xiaotianhu\\Markdoc\\": "src/"
+        },
+        "files": []
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Xiaotianhu\\Markdoc\\ServiceProvider"
+            ]
+        }
+    }
+}
