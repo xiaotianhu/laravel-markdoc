@@ -27,7 +27,7 @@ Just put all the markdown files into the folder,and access with:
 
 > http://yoursite.com/markdoc/index
 
-In default,you can only access the document when the laravel's debug mode is on;
+By default,you can only access the document when the laravel's debug mode is on;
 
 You can modify this in the config file 'config/markdoc.php'.
 
