@@ -20,6 +20,12 @@ php artisan markdoc:install
 ```
 And we're done.
 
+For older version of laravel,you may add the service provider in the file config/app.php:
+
+```
+Xiaotianhu\Markdoc\ServiceProvider::class
+```
+
 # Usage
 After the install,you'll find a doc folder in your project's base path.
 
